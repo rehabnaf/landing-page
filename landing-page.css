@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    background-color: #1F2937;
 }
 
 .header {
@@ -10,19 +11,24 @@ body {
 .header-links {
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    margin: 0;
+    margin: 0 20px;
     padding: 0;
+    align-items: center;
 }
 
 .logo {
-    flex: 3;
+    flex: 2;
     font-size: 24px;
     color: #F9FAF8
 }
 
-.link {
-    flex: 1;
+.right-links {
     font-size: 18px;
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
     color: #E5E7EB;
 }
