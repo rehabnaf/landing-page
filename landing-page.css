@@ -13,6 +13,16 @@ p {
     font-weight: 200;
 }
 
+h3 {
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .header {
     background-color: #1F2937;
 }
@@ -68,6 +78,8 @@ a {
 .hero-image {
     margin: 0;
     padding: 0;
+    width: 600px;
+    height: 350px;
 }
 
 .hero {
@@ -111,6 +123,15 @@ a {
 .product {
     flex: 1;
     margin-top: 30px;
+}
+
+.product1,
+.product2,
+.product3,
+.product4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
 }
 
 .quote-section {
