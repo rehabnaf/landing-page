@@ -2,6 +2,14 @@ body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+    font-weight: 200;
 }
 
 .header {
@@ -18,6 +26,7 @@ body {
 
 .logo {
     flex: 2;
+    /* Flex 2 so logo takes more space than the navigation links hence there is space between the logo and the navigation links */
     font-size: 24px;
     color: #F9FAF8
 }
@@ -70,8 +79,34 @@ a {
 
 .left-hero {
     flex: 1;
+
 }
 
 .right-hero {
+    flex: 1;
+
+}
+
+.information {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.products {
+    display: flex;
+    margin: 0px 200px 50px 200px;
+    text-align: center;
+    gap: 1rem;
+}
+
+.product {
     flex: 1;
 }
