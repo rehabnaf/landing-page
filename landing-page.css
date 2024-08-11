@@ -71,7 +71,7 @@ a {
 
 .hero {
     display: flex;
-    margin: 40px 200px;
+    margin: 100px 200px;
     gap: 10rem;
     align-items: center;
 
@@ -109,4 +109,27 @@ a {
 
 .product {
     flex: 1;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    margin: 100px 200px 10px 200px;
+    color: #1F2937;
+
+}
+
+.customer {
+    margin: 0px 200px 100px 200px;
+    align-self: flex-end;
+    font-weight: 500;
 }
