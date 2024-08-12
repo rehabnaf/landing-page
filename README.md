@@ -2,7 +2,7 @@
 
 This project utilizes Flexbox to create a flexible layout for a landing page optimized for desktop viewing.
 
-Image sources
+<h2>Image sources</h2>
 
 Hero image - Photo by <a href="https://unsplash.com/@jfbrou?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jf Brou</a> on <a href="https://unsplash.com/photos/a-white-dog-sitting-on-a-rock-formation-near-a-large-mountain-pond-915UJQaxtrk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
